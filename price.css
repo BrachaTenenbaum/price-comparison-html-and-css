@@ -1,0 +1,86 @@
+body {
+	background-color: #fca125;
+	font-family: "proxima-nova", sans-serif;
+}
+
+h1 {
+    margin: 0px 90px 50px 90px;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    font-family: "proxima-nova";
+    line-height: 36px;
+    text-align: center;
+}
+
+.price-toggle {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+.annual {
+	background-color: #fff;
+	border: none;
+    border-radius: 7px 0 0 7px;
+    padding: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.month {
+	background-color: #E67F04;
+	border: none;
+    border-radius: 0 7px 7px 0;
+    padding: 15px;
+    font-weight: 600;
+    margin-left: -5px;
+    text-transform: uppercase;
+    color: #7A4919;
+    display: inline-block;
+}
+
+.lit-discount {
+	font-weight: 600;
+    color: rgb(135, 84, 3);
+}
+
+table, th, td {
+	border-bottom: 2px solid #E67F04;;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+
+td:nth-child(2),
+th:nth-child(2){
+  background: #fdbd67;
+}
+td:nth-child(3),
+th:nth-child(3){
+  background: #fdcb87;
+}
+td:nth-child(4),
+th:nth-child(4){
+  background: #fed69f;
+}
+td:nth-child(5),
+th:nth-child(5){
+  background: #fee3be;
+}
+
+th {
+	text-transform: uppercase;
+	text-align: center;
+}
+th button {
+	border: none;
+	border-radius: 5px;
+    background-color: rgba(254,214,159, 0.5);
+    box-shadow: 0px 2px 2px 0px rgba(63, 63, 63, 0.4);
+    text-transform: uppercase;
+    padding: 12px;
+    text-align: center;
+}
+
+ 
